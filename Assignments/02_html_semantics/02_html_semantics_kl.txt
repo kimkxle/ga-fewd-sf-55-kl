@@ -1,0 +1,7 @@
+NOTE: For all answers, please list your sources and make a note of what you looked for and if/how you changed your search query to get to your answer.
+
+    Define semantic markup.
+    How do you decide between using aside, article, section, or div elements?
+    What’s the difference between header and head?
+    How should the alt attribute for img be used? What are the usability/SEO implications?
+    What are the id and class attributes used for? How are they different?

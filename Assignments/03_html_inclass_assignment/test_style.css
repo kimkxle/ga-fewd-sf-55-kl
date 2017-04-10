@@ -1,0 +1,25 @@
+<style>
+header {
+      text-align: center;
+      background-size: cover;
+      color: white;
+    }
+        a {
+      color: black;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 200px 2px 2px 2px;
+      border: 7px solid #000;
+      border-radius: 20px;
+    }
+    p {
+      font-family: Georgia
+    }
+    body {
+      font-family: sans-serif;
+    }
+    </style>
