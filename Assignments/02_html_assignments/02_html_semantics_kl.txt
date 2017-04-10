@@ -1,0 +1,50 @@
+NOTE: For all answers, please list your sources and make a note of what you looked for and if/how you changed your search query to get to your answer.
+___________
+    Define semantic markup.
+    A: semantic = meaning. semanatic markup contains metadata/meaning that describes the html code. ex) a header tag can have class descriptions or div tag descriptions. Semantic markup has evolved into descriptive details for CSS. CSS & Semantic Markup combined helps seperate html tags from visual tags.
+    Source: <a href="http://stackoverflow.com/questions/118624/what-is-semantic-markup-and-why-would-i-want-to-use-that">semantic markup</a>
+____________
+    How do you decide between using aside, article, section, or div elements?
+    A:
+    section - used for grouping related contents ex) chapters within a book.
+    
+    div - are similar to sections, but has no relations.
+    
+    article - are independent, self contained items ex) are comment, new story, blog post, forum post.
+    
+    aside - content that is seperate from the main content in place. e.g. a side note, side bar, etc...
+    
+    Nav - site wide navigation, ex) most websites has a main navigation row
+
+
+    Source1: <a href:"http://stackoverflow.com/questions/4781077/html5-best-practices-section-header-aside-article-elements">html5 best practice for differentiation of elements</a>
+    Source2: <a href:"https://www.w3schools.com/tags/tag_article.asp">article html tag</a>
+
+The div elements can be replaced with the new elements: header, nav, section, article, aside, and footer.
+____________
+    What’s the difference between header and head?
+    A:
+    Head - elements provides metadata about content
+    Header - element provides intorductory or nagivation aids. ex) name or header of an article.
+
+    source: <a href:"http://stackoverflow.com/questions/33919706/what-is-the-real-difference-between-the-head-and-header-tag">header vs head tag hmtl</a>
+____________    
+    How should the alt attribute for img be used? What are the usability/SEO implications?
+    A:
+    alt -  describes an attribute or description for the image if not shown. Important because it specifies an alternate text if the image can not be displayed. Additionally, it's a text alternative for search engines. Search enginges / robots can not interpret images,
+    ex) <img src="jpeg" alt="display image">
+
+    source: https://www.w3schools.com/tags/att_img_alt.asp
+    source: https://www.bigcommerce.com/ecommerce-answers/what-is-an-alt-tag-and-how-does-it-impact-seo/
+
+____________    
+    What are the id and class attributes used for? How are they different?
+    A:
+    ID - can be used to identify one element
+    Class - can be used to identify multiple elements
+    in CSS, a class selector is precded by "." e.g. ".intro {}"" whereas
+    ID is preceded by # e.g."#top{}"
+
+    source: http://www.htmldog.com/guides/css/intermediate/classid/
+
+

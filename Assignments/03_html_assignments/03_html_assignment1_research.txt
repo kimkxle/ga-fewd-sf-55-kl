@@ -1,0 +1,49 @@
+NOTE: For all answers, please list your sources and make a note of what you looked for and if/how you changed your search query to get to your answer.
+
+Define CSS Box Model, and demonstrate the ability to properly manipulate the "box" around tags.
+
+______
+    Why is it important to keep HTML and CSS separate?
+    
+    A: always keep css and html file separate to prevent repitition and cloning errors. One CSS stylesheet can be used for mulitple web pages. That's the power of external style sheets. one style sheet can be applied to the entire website. let's you update quicker. embeded webpage such as the tags <style></style> are rules that can only apply to single document. one page is wiped out the style is wiped out as well. 
+    
+    Source: https://www.codecademy.com/en/forum_questions/53c65bc57c82caeae700207a
+______
+    How do you add comments in CSS?
+    A: comments are used to add explanatory notes to prevent the browser from interpreting it. Can be placed where ever white space is allowed within the style sheet. e.g. /* Comment */
+    HTML comments out <!-- comment -->
+
+    Source:https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
+______
+    What are the normalize.css and reset.css files? What are they used for?
+    A: browsers have different style definitions. the normalize css helps render the pages across browsers. 
+
+    normalize.css - main difference is that it keeps things consistent across browsers. normalize.css benefits: 1) preserves defaults styling; 2) corrects comment bugs vs reset.css; 3) doesn't clutter; 4) modular - breaks down indepedent sections; 5) more documented 
+    
+    reset.css - aims to remove all built-in browser styling. standard elements such as h1, h2, h3 etc.. will have no decoration at all, and you're forced to decorate it yourself.
+
+    Source: http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css
+_____
+    What is the CSS Box Model?
+    A: in a document, each element is presented as a rectangle box to help describe the size, properteries e.g. color background borders - and the position of the boxes help renders the engine.
+    in CSS, each of the boxes is described as standard box model, which describes space and content. The box has 4 edges (Margin, Border, Padding, Content). First is the Margin (most outer) > Border > padding > content (inner most).
+
+    source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+______
+    What is the difference between an inline and block-level element?
+    A: major difference is block element are larger structures than inline elements.  
+    block element - impacts the entire space of a container (parent) to create a 'block'. 
+
+    block element may appear only within a body element whereas inline elements can start anywhere in a line. 
+
+    ex) Block element - one sentence or paragraph can be a block, inline can be a word or phrase within the sentence or within the pharagraph 
+    <!-- html --> <p> pragraph </p> 
+    </* css */> p{ background-color: #fff }
+
+    ex) inline element - a subset of a block element
+    <!-- html --> <p> paragraph <span> span </span> paragraph </p>
+    </* css */> span { background-color: #fff}
+
+    Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements 
+    Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+______
