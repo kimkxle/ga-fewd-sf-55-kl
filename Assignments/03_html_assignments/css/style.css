@@ -1,0 +1,11 @@
+/*Kim Sytle Sheet Test*/
+h1{
+  color: white
+  text-align: center;
+  font-size: 200%;
+  font-weight: extra-bold
+}
+section id="benefits"{
+  background-color:#f0efef
+
+}
