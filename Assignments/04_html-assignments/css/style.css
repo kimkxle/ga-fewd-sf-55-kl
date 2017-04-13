@@ -1,0 +1,120 @@
+/* Project Name: Relaxr Blog Post */
+
+
+/*container*/
+.contrainer {
+  font-style: italic;
+  text-align: left;
+  border-bottom: solid
+  margin: 20px 20px;
+  content: 700px;
+}
+
+/*body*/
+body {
+  color: #606161;
+  font-size: 24px;
+  line-height: 1.4;
+  font-family: sans-serif;
+  font-weight: 300;
+  background: #f0efef;
+}
+a {
+  text-decoration: none;
+}
+
+
+/*header*/
+
+header{
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 28px;
+  display: block;
+  margin: 0 auto;
+  background: #033048;
+}
+
+.div logo {
+  padding: 10px 32px;
+}
+
+/*logo*/
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+  text-align: left;
+}
+
+.yellow {
+  color: yellow;
+  text-align: center;
+}
+
+/*nav*/
+nav a{
+  color: #f9e42e;
+  display: inline-block;
+  font-weight: 200;
+  text-align: right;
+  font-size: 15px;
+}
+
+span{
+  font-weight: 600;
+  display: inline;
+  font-style: normal;
+}
+
+.read {
+  text-align: right;
+  font-weight: 600;
+}
+
+/*aside*/
+
+/*signup*/
+#signup {
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background: #f9e42e;
+}
+#button {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+
+
+/*footer*/
+footer {
+  background: url(images/footer_bg.jpg) no-repeat top center #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer .logo{
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    background-color: #121212;
+    margin: 0 26px 75px;
+  }
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+

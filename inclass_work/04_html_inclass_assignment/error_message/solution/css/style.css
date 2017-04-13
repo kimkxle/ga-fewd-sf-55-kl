@@ -1,0 +1,43 @@
+#notification {
+  background: #ADD8E6;
+  padding: 10px;
+  border: 1px solid #CCC;
+}
+
+.message {
+  background: #FFE;
+  padding: 15px;
+  border: 2px solid #CCB;
+  margin: 10px 0;
+}
+
+.error {
+  background: #FEE;
+  border-color: #C66;
+}
+
+/*
+#success{
+  background: #008000;
+  border-color: #C66;
+  padding: 10px;
+  border: 1px solid #CCC;
+}
+
+#red{
+  background: #FEE;
+  border-color: #C66;
+  padding: 10px;
+  border: 1px solid #CCC;
+}
+*/
+
+
+.success{
+  background: #008000;
+  border-color: #CCC;
+}
+
+.urgent{
+  background: red;
+}
