@@ -53,12 +53,13 @@ header{
 }
 
 /*nav*/
-nav a{
+nav a {
   color: #f9e42e;
   display: inline-block;
   font-weight: 200;
   text-align: right;
   font-size: 15px;
+  float: right;
 }
 
 span{
