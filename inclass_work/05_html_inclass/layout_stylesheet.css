@@ -1,0 +1,38 @@
+* {
+  border: 3px black dotted;
+  min-height: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: yellow;
+  display: block;
+}
+
+section{
+  background-color: blue;
+  float: left;
+  width: 20%;
+}
+
+div {
+  background-color: green;
+  width: 60%;
+  float: left;
+}
+
+aside {
+  background-color: red;
+  float: right;
+  width: 20%;
+}
+
+
+footer {
+  background-color: orange;
+  display: block;
+  clear: both;
+
+}

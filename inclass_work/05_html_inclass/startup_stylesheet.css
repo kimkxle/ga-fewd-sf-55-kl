@@ -1,0 +1,111 @@
+/* Project Name: Startup MatchMaker */
+
+* {
+  font-family: sans-serif;
+  color: #606161;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+/*header*/
+
+header{
+  color: yellow;
+  font-weight: 300;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 40px;
+  background-color: black;
+  border-bottom: yellow solid 4px;
+}
+
+#nav {
+  font-color: white;
+  font-size: 24px;
+  display: inline-block;
+  float: right;
+}
+
+a {
+  text-decoration: none:
+  color: white;
+}
+
+span {
+  font-weight: 900
+}
+
+/*logo*/
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: yellow;
+  text-align: left;
+}
+
+
+/*button*/
+#button {
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background: gray;
+}
+
+#yellow {
+  background: yellow; 
+}
+
+/*image*/
+#image {
+  float: left;
+  margin: 0 auto;
+  height: 40%;
+  width: 100%;
+  background-image: url("coworking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*aside*/
+aside{
+  float: right;
+  width: 30%;
+  overflow: auto;
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
+  color: black;
+  font-weight: 800;
+}
+
+.container {
+  border left: 10px black solid;
+  width: 33%;
+  float: left;
+  min-height: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.middle {
+  border-left: 3px gray solid;
+  border-right: 3px gray solid;
+}
+
+
+
+footer {
+  background-color: black;
+  display: block;
+  clear: both;
+  font-color: white;
+}
