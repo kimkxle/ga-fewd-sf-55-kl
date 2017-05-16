@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ice Cream</title>
+    <link rel="stylesheet" href="styles/style.css">
+  <style>
+    #Flavor li{
+    color: red;
+  }
+  </style>
+  </head>
+
+  <body>
+    <h1>Ice Cream Shop</h1>
+    <h2>Choose a flavor</h2>
+    <ul id="Flavor">
+      <li>Chocolate</li>
+      <li>Strawberry</li>
+      <li>Vanilla</li>
+      <li>Mint</li>
+      <li>Raspberry</li>
+    </ul>
+
+    <h2>How Many Scoops?</h2>
+    <ul id="NumScoops">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+
+    <h2>Order Summary:</h2>
+    
+    <p id="order">coming right up! One <span id="picked-flavor">{flavor}</span>ice cream cone with <span id="picked-num-scoops">{numberScoop}</span> scoops.
+    </p>
+
+    <script src="scripts/jquery-3.2.1.min.js">
+    </script>
+
+    <script src="scripts/index.js"></script>
+
+  </body>
+
+</html>
