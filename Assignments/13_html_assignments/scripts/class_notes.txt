@@ -1,0 +1,77 @@
+// notes 
+
+//only execute code when DOM is ready
+//
+//listen for a click on the game option
+//get the value of the user play
+//
+//computer plays randomly (???)
+//
+//compare user play with bot play
+//update the winning score 
+//log details of play
+//
+//Approach:
+//1. implement click listeners to figure out user play
+//2. hard-code computer play (i.e., manually define 'random' play)
+//3. implement the game logic
+//4. console.log the results
+//5. update the play status and scoreboard
+//6. implement random computer play
+//
+
+//get the value of the the user play
+var defineUserPlayValue=function() {
+  var userChoice = event.target;
+  var typePlay = $(userChoice).text;
+
+  console.log(typePlay);
+
+}
+
+//define user play value? 
+$('#rock').click(defineUserPlayValue;)
+$('#paper').click(defineUserPlayValue;)
+$('#scissors').click(defineUserPlayValue;)
+ 
+
+ //options lists illustrates all the values
+ $('#options li').click(function() {
+  var userChoice = event.target; 
+  var userPlay = #(userChoice).text(); 
+
+console.log(userPlay);
+//$('humanChoice').text(typePlay);
+});
+
+//random computer play
+var botPlay='Rock';
+
+//game logic 
+
+switch (userPlay) {
+  case: botPlay; 
+    console.log('it is a tie');
+    break;
+  case 'rock': 
+    if (botPlay ==='paper') {
+      console.log('You chose rock and bot chose paper. Bot 'won'!); 
+      } else {
+        //bot picked scissors 
+        console.log('you chose rock and bot chose scissor. You 'won'!);
+        }
+        break;
+  case 'paper';
+    if (botPlay ==='scissor') {
+        console.log ('You chose paper and bot 'won');
+        } else {
+
+        }
+      }
+
+    }
+
+}
+
+
+
