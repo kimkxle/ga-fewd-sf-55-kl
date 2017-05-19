@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <head>
+    <title>To Do List</title>
+  </head>
+  <body>
+  <h1>To Do</h1>
+
+  <form>
+    <fieldset>
+      Add To Do: 
+      <br>
+      <input id="new-todo" type="text" name="text" autofocus>
+      <button id="add-todo">Add</button><br>
+      <br>
+    </fieldset>
+    <fieldset>
+      List:
+      <br>
+      <ol id="todos">
+        <li id="template"><label><input type="checkbox"><span></span></label></li>
+      </ol>
+    </fieldset>
+      <button id="clear-todo">Clear Completed</button><br>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+
+  </body>
+</html>
